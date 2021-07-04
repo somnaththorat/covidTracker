@@ -1,0 +1,16 @@
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(16, 71, 252, 0.253);
+  transition: 0.9s;
+  box-sizing: border-box;
+  height: 7em;
+  width: 25em;
+  bottom: 5em;
+  padding: 0.9em;
+  color:black;
+  background: rgb(170, 18, 162);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(57, 18, 199, 0.979);
+}
